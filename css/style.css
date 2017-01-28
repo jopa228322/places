@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&subset=cyrillic');
+/* font-family: 'Open Sans', sans-serif; */
+@font-face {
+	font-family: "ProximaNova";
+	src: url("../fonts/ProximaNova-Regular.ttf") format("truetype"),
+	url("../fonts/ProximaNova-Regular.woff") format("woff"),
+	url("../fonts/ProximaNova-Regular.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal
+}@font-face {
+	font-family: "OpenSans";
+	src: url("../fonts/OpenSans-Regular.ttf") format("truetype");	
+	font-weight: normal;
+	font-style: normal
+}@font-face {
+	font-family: "OpenSansLight";
+	src: url("../fonts/OpenSans-Light.ttf") format("truetype");	
+	font-weight: normal;
+	font-style: normal
+}@font-face {
+	font-family: "OpenSansBold";
+	src: url("../fonts/OpenSans-Bold.ttf") format("truetype");	
+	font-weight: normal;
+	font-style: normal
+}
+@font-face {
+	font-family: "ProximaNova";
+	src: url("../fonts/ProximaNova-Bold.ttf") format("truetype"),
+	url("../fonts/ProximaNova-Bold.woff") format("woff"),
+	url("../fonts/ProximaNova-Bold.woff2") format("woff2");
+	font-weight: 700;
+	font-style: normal
+}
+
+*, *::before, *::after{
+	box-sizing: border-box;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+body{
+	min-width: 1280px;
+	max-width: 1920px;
+	background-color: #fafafa;
+	margin: 0 auto;
+}
+main{margin-bottom: 420px;
+ z-index: 2;
+ background: #fafafa;
+}
+.centerBlock{
+	max-width: 1280px;
+	margin: 0 auto;
+	padding-left: 26px;
+	padding-right: 26px;
+}
+.clearfix::after{
+	display: block;
+	content: "";
+	clear: both;s
+}
+
+
+/***************************************************************************************************************/
+
+.main-screen-place{
+	
+	width: 100%;
+	background-image: url(../images/main-screen-bg.png);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.description-places-main-screen{
+    color: #fff;
+    width: 100%;
+    margin: 0 auto;
+    padding: 186px 27px;
+}
+.description-places-main-screen h1{
+	font-size: 43px;
+	font-family: "OpenSansBold";
+}
+.description-places-main-screen p{
+	font-size: 14px;
+	max-width: 51%;
+	font-family: "Open Sans";
+	line-height: 23px;
+}
+.select-places-main-screen{
+	width: 100%;
+	color: #fff;
+	position: relative;
+	padding: 2% 0;
+}
+.line-dot{
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	height: 250px;
+}
+.line-1{
+    width: 23.65%;
+    height: 150px;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.line-2{
+     width: 17%;
+    height: 150px;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    position: absolute;
+	left: 23.8%;
+    top: 17%;
+}
+.line-3{
+     width: 16.9%;
+    height: 150px;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    position: absolute;
+    left: 41.1%;
+    top: 18.6%;
+}
+.line-4{
+    width: 18.75%;
+    height: 150px;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    position: absolute;
+    left: 58.2%;
+    top: 18.1%;
+}
+.line-5{
+    width: 22.8%;
+    height: 174px;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    position: absolute;
+    left: 77.2%;
+    top: 19.6%;
+}
+.container-select-place{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	position: relative;
+	width: 64%;
+	height: 174px;
+}
+.description-select-place-1{
+	position: absolute;
+    top: -34%;
+    left: -3.5%;
+    width: 265px;
+}
+.description-select-place-1 p{
+	color: #fff;
+	font-family: "OpenSans";
+	font-size: 14px;
+	line-height: 23px;
+	text-align: center;
+}
+.description-select-place-2{
+    position: absolute;
+    top: -69%;
+    left: 25.4%;
+    width: 265px;
+}
+.description-select-place-2 p{
+	color: #fff;
+	font-family: "OpenSans";
+	font-size: 14px;
+	line-height: 23px;
+	text-align: center;
+}
+.description-select-place-3{
+    position: absolute;
+    top: -17%;
+    left: 55.6%;
+    width: 265px;
+}
+.description-select-place-3 p{
+	color: #fff;
+	font-family: "OpenSans";
+	font-size: 14px;
+	line-height: 23px;
+	text-align: center;
+}
+.description-select-place-4{
+    position: absolute;
+    top: -65%;
+    left: 81%;
+    width: 265px;
+}
+.description-select-place-4 p{
+	color: #fff;
+	font-family: "OpenSans";
+	font-size: 14px;
+	line-height: 23px;
+	text-align: center;
+}
+.select-place-1{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    padding: 4px;
+    position: absolute;
+    top: -135%;
+    left: 0%;
+}
+
+.select-place-1 div{
+	background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    height: 100%
+}
+.select-place-2{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    padding: 4px;
+    position: absolute;
+    top: -171%;
+    left: 29%;
+}
+
+.select-place-2 div{
+	background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    height: 100%
+}
+.select-place-3{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    padding: 4px;
+    position: absolute;
+    top: -117%;
+    left: 59%;
+}
+
+.select-place-3 div{
+	background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    height: 100%
+}
+.select-place-4{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    padding: 4px;
+    position: absolute;
+    top: -164%;
+    left: 85%;
+}
+
+.select-place-4 div{
+	background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    height: 100%
+}
+
+/**************************************************************************************************************/
+.places-select-content{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 60px;
+	
+}
+.type-of-location{
+	background-color: #fff;
+	margin-bottom: 50px;
+	padding-bottom: 1px;
+}
+.type-of-location a{
+	text-decoration: none;
+
+}
+.name-location{
+	font-size: 19.5px;
+	font-family: "OpenSansBold";
+	letter-spacing: 1px;
+	color: #000;
+	padding-left: 16px;
+}
+.about-location{
+	font-size: 11.5px;
+	font-family: "Open Sans";
+	letter-spacing: 1px;
+	color: #000;
+	padding: 0 16px;
+	margin-bottom: 45px;
+}
+.about-location p {
+	margin: 0;
+}
+.read-more-places{
+	width: 100%;
+	text-align: right;
+}
+.read-more-places a{
+	font-family: "OpenSans";
+	font-size: 13.42px;
+	border-bottom: 1px dashed #000;
+	text-decoration: none;
+	color: #000;
+	transition: 0.3s all;
+}
+.read-more-places a:hover{
+	color:  #fd7676;
+	transition: 0.3s all;
+	border-bottom: 1px dashed #fd7676;
+}
